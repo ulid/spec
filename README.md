@@ -54,6 +54,7 @@ From ourselves and the community!
 | [Java](https://github.com/azam/ulidj) | [azam](https://github.com/azam) |
 | [Java](https://github.com/Lewiscowles1986/jULID) | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
 | [JavaScript](https://github.com/ulid/javascript) | [ulid](https://github.com/ulid) |
+| [JavaScript](https://github.com/aarondcohen/id128) | [aarondcohen](https://github.com/aarondcohen) | ✓ |
 | [Julia](https://github.com/ararslan/ULID.jl) | [ararslan](https://github.com/ararslan) |
 | [Lua](https://github.com/Tieske/ulid.lua) | [Tieske](https://github.com/Tieske) |
 | [.NET](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
