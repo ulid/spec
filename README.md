@@ -93,7 +93,7 @@ Below is the current specification of ULID as implemented in this repository.
 **Timestamp**
 - 48 bit integer
 - UNIX-time in milliseconds
-- Won't run out of space until `+10889-08-02T05:31:50.655Z`.
+- Won't run out of space till the year 10889 AD.
 
 **Randomness**
 - 80 bits
