@@ -46,6 +46,7 @@ From ourselves and the community!
 | [D](https://github.com/enckse/ulid) | [enckse](https://github.com/enckse) |
 | [D (dub)](https://code.dlang.org/packages/ulid-d) | [extrawurst](https://github.com/Extrawurst)
 | [Erlang](https://github.com/savonarola/ulid) | [savonarola](https://github.com/savonarola) |
+| [Elixir](https://github.com/Homepolish/ulid) | [Homepolish](https://github.com/Homepolish) | ✓ |
 | [Elixir](https://github.com/merongivian/ulid) | [merongivian](https://github.com/merongivian) |
 | [Elixir](https://github.com/omisego/ex_ulid) | [omisego](https://github.com/omisego) | ✓ |
 | [F#](https://github.com/lucasschejtman/FSharp.Ulid) | [lucasschejtman](https://github.com/lucasschejtman) |
