@@ -49,6 +49,7 @@ From ourselves and the community!
 | [Elixir](https://github.com/Homepolish/ulid) | [Homepolish](https://github.com/Homepolish) | ✓ |
 | [Elixir](https://github.com/merongivian/ulid) | [merongivian](https://github.com/merongivian) |
 | [Elixir](https://github.com/omisego/ex_ulid) | [omisego](https://github.com/omisego) | ✓ |
+| [Elixir (Ecto)](https://github.com/TheRealReal/ecto-ulid) | [dcuddeback](https://github.com/dcuddeback) | ✓ |
 | [F#](https://github.com/lucasschejtman/FSharp.Ulid) | [lucasschejtman](https://github.com/lucasschejtman) |
 | [Go](https://github.com/oklog/ulid) | [oklog](https://github.com/oklog) | ✓ |
 | [Haskell](https://github.com/steven777400/ulid) | [steven777400](https://github.com/steven777400) | ✓ |
