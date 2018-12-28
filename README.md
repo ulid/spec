@@ -60,8 +60,8 @@ From ourselves and the community!
 | [JavaScript](https://github.com/aarondcohen/id128) | [aarondcohen](https://github.com/aarondcohen) | ✓ |
 | [Julia](https://github.com/ararslan/ULID.jl) | [ararslan](https://github.com/ararslan) |
 | [Lua](https://github.com/Tieske/ulid.lua) | [Tieske](https://github.com/Tieske) |
-| [.NET](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
-| [.NET](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
+| [C#](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
+| [C#](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
 | [Nim](https://github.com/adelq/ulid) | [adelq](https://github.com/adelq)
 | [Perl 5](https://github.com/bk/Data-ULID) | [bk](https://github.com/bk) | ✓ |
 | [PHP](https://github.com/Lewiscowles1986/ulid) | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
