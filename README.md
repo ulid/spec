@@ -70,6 +70,7 @@ From ourselves and the community!
 | [Python](https://github.com/mdipierro/ulid) | [mdipierro](https://github.com/mdipierro) |
 | [Python](https://github.com/ahawker/ulid) | [ahawker](https://github.com/ahawker) | ✓ |
 | [Python](https://github.com/mdomke/python-ulid) | [mdomke](https://github.com/mdomke) | ✓ |
+| [R](https://github.com/hrbrmstr/ulid) | [hrbrmstr](https://github.com/hrbrmstr) |   |
 | [Ruby](https://github.com/rafaelsales/ulid) | [rafaelsales](https://github.com/rafaelsales) |
 | [Rust](https://github.com/mmacedoeu/rulid.rs) | [mmacedoeu](https://github.com/mmacedoeu) | ✓ |
 | [Rust](https://github.com/dylanhart/ulid-rs) | [dylanhart](https://github.com/dylanhart) | ✓ |
