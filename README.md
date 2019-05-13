@@ -38,6 +38,7 @@ From ourselves and the community!
 | Language | Author | Binary Implementation |
 | -------- | ------ | --------------------- |
 | [C++](https://github.com/suyash/ulid) | [suyash](https://github.com/suyash) | ✓ |
+| [C#](https://github.com/mcb2001/CSharp.Ulid) | [mcb2001](https://github.com/mcb2001) |
 | [Clojure](https://github.com/theikkila/clj-ulid) | [theikkila](https://github.com/theikkila) |
 | [Objective-C](https://github.com/whitesmith/ulid) | [ricardopereira](https://github.com/ricardopereira) |
 | [Crystal](https://github.com/SuperPaintman/ulid) | [SuperPaintman](https://github.com/SuperPaintman) |
@@ -51,6 +52,7 @@ From ourselves and the community!
 | [Elixir](https://github.com/omisego/ex_ulid) | [omisego](https://github.com/omisego) | ✓ |
 | [Elixir (Ecto)](https://github.com/TheRealReal/ecto-ulid) | [dcuddeback](https://github.com/dcuddeback) | ✓ |
 | [F#](https://github.com/lucasschejtman/FSharp.Ulid) | [lucasschejtman](https://github.com/lucasschejtman) |
+| [Factor](https://github.com/AlexIljin/ulid) | [Alexander Ilin](https://github.com/AlexIljin) | ✓ |
 | [Go](https://github.com/oklog/ulid) | [oklog](https://github.com/oklog) | ✓ |
 | [Haskell](https://github.com/steven777400/ulid) | [steven777400](https://github.com/steven777400) | ✓ |
 | [Java](https://github.com/huxi/sulky/tree/master/sulky-ulid) | [huxi](https://github.com/huxi) | ✓ |
@@ -71,11 +73,13 @@ From ourselves and the community!
 | [Python](https://github.com/mdipierro/ulid) | [mdipierro](https://github.com/mdipierro) |
 | [Python](https://github.com/ahawker/ulid) | [ahawker](https://github.com/ahawker) | ✓ |
 | [Python](https://github.com/mdomke/python-ulid) | [mdomke](https://github.com/mdomke) | ✓ |
+| [R](https://github.com/hrbrmstr/ulid) | [hrbrmstr](https://github.com/hrbrmstr) |   |
 | [Ruby](https://github.com/rafaelsales/ulid) | [rafaelsales](https://github.com/rafaelsales) |
 | [Rust](https://github.com/mmacedoeu/rulid.rs) | [mmacedoeu](https://github.com/mmacedoeu) | ✓ |
 | [Rust](https://github.com/dylanhart/ulid-rs) | [dylanhart](https://github.com/dylanhart) | ✓ |
 | [SQL-Microsoft](https://github.com/rmalayter/ulid-mssql) | [rmalayter](https://github.com/rmalayter) | ✓ |
 | [Swift](https://github.com/simonwhitehouse/ULIDSwift) | [simonwhitehouse](https://github.com/simonwhitehouse) |
+| [Swift](https://github.com/yaslab/ULID.swift) | [yaslab](https://github.com/yaslab) | ✓ |
 | [Tcl](https://wiki.tcl-lang.org/48827) | [dbohdan](https://github.com/dbohdan) |
 
 ## Specification
