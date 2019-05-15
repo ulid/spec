@@ -43,6 +43,7 @@ From ourselves and the community!
 | [Objective-C](https://github.com/whitesmith/ulid) | [ricardopereira](https://github.com/ricardopereira) |
 | [Crystal](https://github.com/SuperPaintman/ulid) | [SuperPaintman](https://github.com/SuperPaintman) |
 | [Dart](https://github.com/agilord/ulid) | [isoos](https://github.com/isoos) | ✓ |
+| [Dart](https://github.com/GuepardoApps/d-ulid) | [GuepardoApps](https://github.com/GuepardoApps) |
 | [Delphi](https://github.com/martinusso/ulid) | [matinusso](https://github.com/martinusso) |
 | [D](https://github.com/enckse/ulid) | [enckse](https://github.com/enckse) |
 | [D (dub)](https://code.dlang.org/packages/ulid-d) | [extrawurst](https://github.com/Extrawurst)
