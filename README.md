@@ -83,7 +83,7 @@ From ourselves and the community!
 
 ## Specification
 
-Below is the current specification of ULID as implemented in this repository.
+Below is the current specification of ULID as implemented in [ulid/javascript](https://github.com/ulid/javascript).
 
 *Note: the binary format has not been implemented in JavaScript as of yet.*
 
