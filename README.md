@@ -195,3 +195,12 @@ The components are encoded as 16 octets. Each component is encoded with the Most
 Partly inspired by:
 - http://instagram-engineering.tumblr.com/post/10853187575/sharding-ids-at-instagram
 - https://firebase.googleblog.com/2015/02/the-2120-ways-to-ensure-unique_68.html
+
+### Code Visualization:
+
+Here is a cool visualization of the code evolution
+
+ [![Watch the video](https://img.youtube.com/vi/VswwXbSQOjs/0.jpg)](https://www.youtube.com/watch?v=VswwXbSQOjs)
+
+ [https://www.youtube.com/watch?v=VswwXbSQOjs](https://www.youtube.com/watch?v=VswwXbSQOjs)
+
