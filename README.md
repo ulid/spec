@@ -67,6 +67,7 @@ From ourselves and the community!
 | [.NET](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
 | [.NET](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
 | [Nim](https://github.com/adelq/ulid) | [adelq](https://github.com/adelq)
+| [OCaml](https://github.com/stripedpajamas/ocaml-ulid) | [stripedpajamas](https://github.com/stripedpajamas) |   |
 | [Perl 5](https://github.com/bk/Data-ULID) | [bk](https://github.com/bk) | ✓ |
 | [PHP](https://github.com/Lewiscowles1986/ulid) | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
 | [PHP](https://github.com/robinvdvleuten/php-ulid) | [robinvdvleuten](https://github.com/robinvdvleuten) |
