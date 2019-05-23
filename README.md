@@ -9,7 +9,7 @@
 
 # Universally Unique Lexicographically Sortable Identifier
 
-UUID can be suboptimal for many uses-cases because:
+UUID can be suboptimal for many use-cases because:
 
 - It isn't the most character efficient way of encoding 128 bits of randomness
 - UUID v1/v2 is impractical in many environments, as it requires access to a unique, stable MAC address
