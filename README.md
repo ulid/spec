@@ -100,7 +100,7 @@ Below is the current specification of ULID as implemented in [ulid/javascript](h
 **Timestamp**
 - 48 bit integer
 - UNIX-time in milliseconds
-- Won't run out of space till the year 10889 AD.
+- Won't run out of space 'til the year 10889 AD.
 
 **Randomness**
 - 80 bits
