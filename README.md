@@ -37,6 +37,7 @@ From ourselves and the community!
 
 | Language | Author | Binary Implementation |
 | -------- | ------ | --------------------- |
+| [C99](https://github.com/skeeto/ulid-c) | [skeeto](https://github.com/skeeto) |
 | [C++](https://github.com/suyash/ulid) | [suyash](https://github.com/suyash) | ✓ |
 | [C#](https://github.com/mcb2001/CSharp.Ulid) | [mcb2001](https://github.com/mcb2001) |
 | [Clojure](https://github.com/theikkila/clj-ulid) | [theikkila](https://github.com/theikkila) |
