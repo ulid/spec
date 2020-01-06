@@ -76,9 +76,9 @@ From ourselves and the community!
 
 ## Specification
 
-Below is the current specification of ULID as implemented in this repository.
+Below is the current canonical specification of ULID.
 
-*Note: the binary format has not been implemented in JavaScript as of yet.*
+The reference implementation is available [here](https://github.com/ulid/javascript) in JavaScript. It does not implement the binary representation.
 
 ```
  01AN4Z07BY      79KA1307SR9X4MV3
@@ -101,7 +101,7 @@ Below is the current specification of ULID as implemented in this repository.
 
 ### Sorting
 
-The left-most character must be sorted first, and the right-most character sorted last (lexical order). The default ASCII character set must be used. Within the same millisecond, sort order is not guaranteed
+The left-most character must be sorted first, and the right-most character sorted last (lexical order). Within the same millisecond, sort order is not guaranteed.
 
 ### Canonical String Representation
 
@@ -113,53 +113,21 @@ t is Timestamp (10 characters)
 r is Randomness (16 characters)
 ```
 
+All characters must be in uppercase.
+
 #### Encoding
 
-Crockford's Base32 is used as shown. This alphabet excludes the letters I, L, O, and U to avoid confusion and abuse.
+The following alphabet is used for encoding to a string. This alphabet excludes the letters I, L, O, and U to avoid confusion and abuse. It has been inspired by Crockford's Base32 alphabet.
 
 ```
 0123456789ABCDEFGHJKMNPQRSTVWXYZ
-```
-
-### Monotonicity
-
-When generating a ULID within the same millisecond, we can provide some
-guarantees regarding sort order. Namely, if the same millisecond is detected, the `random` component is incremented by 1 bit in the least significant bit position (with carrying). For example:
-
-```javascript
-import { monotonicFactory } from 'ulid'
-
-const ulid = monotonicFactory()
-
-// Assume that these calls occur within the same millisecond
-ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRZ
-ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS0
-```
-
-If, in the extremely unlikely event that, you manage to generate more than 2<sup>80</sup> ULIDs within the same millisecond, or cause the random component to overflow with less, the generation will fail.
-
-```javascript
-import { monotonicFactory } from 'ulid'
-
-const ulid = monotonicFactory()
-
-// Assume that these calls occur within the same millisecond
-ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRY
-ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRZ
-ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS0
-ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS1
-...
-ulid() // 01BX5ZZKBKZZZZZZZZZZZZZZZX
-ulid() // 01BX5ZZKBKZZZZZZZZZZZZZZZY
-ulid() // 01BX5ZZKBKZZZZZZZZZZZZZZZZ
-ulid() // throw new Error()!
 ```
 
 #### Overflow Errors when Parsing Base32 Strings
 
 Technically, a 26-character Base32 encoded string can contain 130 bits of information, whereas a ULID must only contain 128 bits. Therefore, the largest valid ULID encoded in Base32 is `7ZZZZZZZZZZZZZZZZZZZZZZZZZ`, which corresponds to an epoch time of `281474976710655` or `2 ^ 48 - 1`.
 
-Any attempt to decode or encode a ULID larger than this should be rejected by all implementations, to prevent overflow bugs.
+Any attempt to decode or encode a ULID larger than this must be rejected by all implementations to prevent overflow bugs.
 
 ### Binary Layout and Byte Order
 
