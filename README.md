@@ -147,6 +147,50 @@ The components are encoded as 16 octets. Each component is encoded with the Most
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
 
+### Optional Addendums
+
+The following features are entirely optional parts of the spec.
+
+#### Monotonicity
+
+*Monotonicity is almost impossible to use in multi-threaded or distributed environments. However, if you do need it in single-threaded environments, it must be implemented this way.*
+
+When generating a ULID within the same millisecond, we can provide some
+more guarantees regarding sort order. Namely, if the same millisecond is detected by the generator, the `random` component is incremented by 1 bit in the least significant bit position (with carrying) of the previously generated ULID. For example:
+
+```javascript
+import { monotonicFactory } from 'ulid'
+
+const ulid = monotonicFactory()
+
+// Assume that these calls occur within the same millisecond
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRX
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRY
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRZ
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS0
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS1
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS2
+```
+
+If, in the extremely unlikely event that, you manage to generate more than 2<sup>80</sup> ULIDs within the same millisecond, or cause the random component to overflow with less, the generation must fail.
+
+```javascript
+import { monotonicFactory } from 'ulid'
+
+const ulid = monotonicFactory()
+
+// Assume that these calls occur within the same millisecond
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRY
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRZ
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS0
+ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS1
+...
+ulid() // 01BX5ZZKBKZZZZZZZZZZZZZZZX
+ulid() // 01BX5ZZKBKZZZZZZZZZZZZZZZY
+ulid() // 01BX5ZZKBKZZZZZZZZZZZZZZZZ
+ulid() // throw new Error()!
+```
+
 ## Prior Art
 
 Partly inspired by:
