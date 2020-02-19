@@ -39,6 +39,7 @@ From ourselves and the community!
 | -------- | ------ | --------------------- |
 | [C++](https://github.com/suyash/ulid) | [suyash](https://github.com/suyash) | ✓ |
 | [C#](https://github.com/mcb2001/CSharp.Ulid) | [mcb2001](https://github.com/mcb2001) |
+| [C#](https://github.com/Cysharp/Ulid) | [Cysharp](https://github.com/Cysharp) | ✓ |
 | [Clojure](https://github.com/theikkila/clj-ulid) | [theikkila](https://github.com/theikkila) |
 | [Objective-C](https://github.com/whitesmith/ulid) | [ricardopereira](https://github.com/ricardopereira) |
 | [Crystal](https://github.com/SuperPaintman/ulid) | [SuperPaintman](https://github.com/SuperPaintman) |
