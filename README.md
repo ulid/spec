@@ -71,6 +71,7 @@ From ourselves and the community!
 | [Perl 5](https://github.com/bk/Data-ULID) | [bk](https://github.com/bk) | ✓ |
 | [PHP](https://github.com/Lewiscowles1986/ulid) | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
 | [PHP](https://github.com/robinvdvleuten/php-ulid) | [robinvdvleuten](https://github.com/robinvdvleuten) |
+| [PHP](https://github.com/symfony/uid) | [Symfony](https://github.com/symfony) | ✓ |
 | [PowerShell](https://github.com/PetterBomban/posh-ulid) | [PetterBomban](https://github.com/PetterBomban) |
 | [Python](https://github.com/mdipierro/ulid) | [mdipierro](https://github.com/mdipierro) |
 | [Python](https://github.com/ahawker/ulid) | [ahawker](https://github.com/ahawker) | ✓ |
