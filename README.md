@@ -39,6 +39,9 @@ From ourselves and the community!
 | -------- | ------ | --------------------- |
 | [C++](https://github.com/suyash/ulid) | [suyash](https://github.com/suyash) | ✓ |
 | [C#](https://github.com/mcb2001/CSharp.Ulid) | [mcb2001](https://github.com/mcb2001) |
+| [C#](https://github.com/Cysharp/Ulid) | [Cysharp](https://github.com/Cysharp) | ✓ |
+| [C#](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
+| [C#](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
 | [Clojure](https://github.com/theikkila/clj-ulid) | [theikkila](https://github.com/theikkila) |
 | [Objective-C](https://github.com/whitesmith/ulid) | [ricardopereira](https://github.com/ricardopereira) |
 | [Crystal](https://github.com/SuperPaintman/ulid) | [SuperPaintman](https://github.com/SuperPaintman) |
@@ -64,8 +67,6 @@ From ourselves and the community!
 | [Julia](https://github.com/ararslan/ULID.jl) | [ararslan](https://github.com/ararslan) |
 | [Kotlin](https://github.com/GuepardoApps/kULID) | [GuepardoApps](https://github.com/GuepardoApps) |
 | [Lua](https://github.com/Tieske/ulid.lua) | [Tieske](https://github.com/Tieske) |
-| [.NET](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
-| [.NET](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
 | [Nim](https://github.com/adelq/ulid) | [adelq](https://github.com/adelq)
 | [OCaml](https://github.com/stripedpajamas/ocaml-ulid) | [stripedpajamas](https://github.com/stripedpajamas) |   |
 | [Perl 5](https://github.com/bk/Data-ULID) | [bk](https://github.com/bk) | ✓ |
