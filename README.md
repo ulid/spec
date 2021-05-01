@@ -26,7 +26,9 @@ ulid() // 01ARZ3NDEKTSV4RRFFQ69G5FAV
 - 1.21e+24 unique ULIDs per millisecond
 - Lexicographically sortable!
 - Canonically encoded as a 26 character string, as opposed to the 36 character UUID
-- Uses Crockford's base32 for better efficiency and readability (5 bits per character)
+- Uses subset of Crockford's base32 for better efficiency and readability (5 bits per character)
+  - Major difference with `Crockford's base32` is not be able to contain `iIlLoO` and `hyphens(-)`
+  - All characters except `0123456789ABCDEFGHJKMNPQRSTVWXYZabcdefghjkmnpqrstvwxyz` are invalid in ULID
 - Case insensitive
 - No special characters (URL safe)
 - Monotonic sort order (correctly detects and handles the same millisecond)
