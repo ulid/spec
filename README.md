@@ -77,6 +77,8 @@ From ourselves and the community!
 | [Python](https://github.com/mdomke/python-ulid) | [mdomke](https://github.com/mdomke) | ✓ |
 | [R](https://github.com/hrbrmstr/ulid) | [hrbrmstr](https://github.com/hrbrmstr) |   |
 | [Ruby](https://github.com/rafaelsales/ulid) | [rafaelsales](https://github.com/rafaelsales) |
+| [Ruby](https://github.com/abachman/ulid-ruby) | [abachman](https://github.com/abachman) |
+| [Ruby](https://github.com/kachick/ruby-ulid) | [kachick](https://github.com/kachick) | ✓ |
 | [Rust](https://github.com/mmacedoeu/rulid.rs) | [mmacedoeu](https://github.com/mmacedoeu) | ✓ |
 | [Rust](https://github.com/dylanhart/ulid-rs) | [dylanhart](https://github.com/dylanhart) | ✓ |
 | [Scala](https://github.com/petitviolet/ulid4s) | [petitviolet](https://github.com/petitviolet) |
