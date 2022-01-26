@@ -134,8 +134,7 @@ Crockford's Base32 is used as shown. This alphabet excludes the letters I, L, O,
 
 ### Monotonicity
 
-When generating a ULID within the same millisecond, we can provide some
-guarantees regarding sort order. Namely, if the same millisecond is detected, the `random` component is incremented by 1 bit in the least significant bit position (with carrying). For example:
+When generating a ULID within the same millisecond, implementations may optionally provide monotonicity by statefully incrementing the `random` component rather than regenerating it.
 
 ```javascript
 import { monotonicFactory } from 'ulid'
@@ -147,7 +146,7 @@ ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRZ
 ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS0
 ```
 
-If, in the extremely unlikely event that, you manage to generate more than 2<sup>80</sup> ULIDs within the same millisecond, or cause the random component to overflow with less, the generation will fail.
+Generating more than 2<sup>80</sup> ULIDs within the same millisecond, or causing the random component to overflow, will result in an error.
 
 ```javascript
 import { monotonicFactory } from 'ulid'
