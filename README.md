@@ -64,6 +64,7 @@ From ourselves and the community!
 | [Julia](https://github.com/ararslan/ULID.jl) | [ararslan](https://github.com/ararslan) |
 | [Kotlin](https://github.com/GuepardoApps/kULID) | [GuepardoApps](https://github.com/GuepardoApps) |
 | [Lua](https://github.com/Tieske/ulid.lua) | [Tieske](https://github.com/Tieske) |
+| [Motoko](https://github.com/aviate-labs/ulid.mo) | [aviate-labs](https://github.com/aviate-labs) |
 | [.NET](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
 | [.NET](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
 | [Nim](https://github.com/adelq/ulid) | [adelq](https://github.com/adelq)
