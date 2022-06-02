@@ -63,7 +63,7 @@ From ourselves and the community!
 | [JavaScript](https://github.com/aarondcohen/id128) | [aarondcohen](https://github.com/aarondcohen) | ✓ |
 | [Julia](https://github.com/ararslan/ULID.jl) | [ararslan](https://github.com/ararslan) |
 | [Kotlin](https://github.com/GuepardoApps/kULID) | [GuepardoApps](https://github.com/GuepardoApps) |
-| [Kotlin](https://github.com/Aallam/ulid) | [Aallam](https://github.com/Aallam) | ✓ |
+| [Kotlin](https://github.com/Aallam/ulid-kotlin) | [Aallam](https://github.com/Aallam) | ✓ |
 | [Lua](https://github.com/Tieske/ulid.lua) | [Tieske](https://github.com/Tieske) |
 | [.NET](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
 | [.NET](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
