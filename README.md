@@ -44,6 +44,7 @@ From ourselves and the community!
 | [Crystal](https://github.com/SuperPaintman/ulid) | [SuperPaintman](https://github.com/SuperPaintman) |
 | [Dart](https://github.com/agilord/ulid) | [isoos](https://github.com/isoos) | ✓ |
 | [Dart](https://github.com/GuepardoApps/d-ulid) | [GuepardoApps](https://github.com/GuepardoApps) |
+| [Dart](https://github.com/Aallam/ulid4d) | [aallam](https://github.com/Aallam) | ✓ |
 | [Delphi](https://github.com/martinusso/ulid) | [matinusso](https://github.com/martinusso) |
 | [D](https://github.com/enckse/ulid) | [enckse](https://github.com/enckse) |
 | [D (dub)](https://code.dlang.org/packages/ulid-d) | [extrawurst](https://github.com/Extrawurst)
