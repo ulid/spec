@@ -84,6 +84,7 @@ From ourselves and the community!
 | [Swift](https://github.com/simonwhitehouse/ULIDSwift) | [simonwhitehouse](https://github.com/simonwhitehouse) |
 | [Swift](https://github.com/yaslab/ULID.swift) | [yaslab](https://github.com/yaslab) | ✓ |
 | [Tcl](https://wiki.tcl-lang.org/48827) | [dbohdan](https://github.com/dbohdan) |
+| [V](https://modules.vlang.io/rand.html#ulid) | [hungrybluedev](https://github.com/hungrybluedev) |
 
 ## Specification
 
