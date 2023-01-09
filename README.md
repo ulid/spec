@@ -81,8 +81,7 @@ From ourselves and the community!
 | [Rust](https://github.com/dylanhart/ulid-rs) | [dylanhart](https://github.com/dylanhart) | ✓ |
 | [Scala](https://github.com/petitviolet/ulid4s) | [petitviolet](https://github.com/petitviolet) |
 | [SQL-Microsoft](https://github.com/rmalayter/ulid-mssql) | [rmalayter](https://github.com/rmalayter) | ✓ |
-| [Swift](https://github.com/simonwhitehouse/ULIDSwift) | [simonwhitehouse](https://github.com/simonwhitehouse) |
-| [Swift](https://github.com/yaslab/ULID.swift) | [yaslab](https://github.com/yaslab) | ✓ |
+| [Swift](https://github.com/brightdigit/ThirtyTo) | [BrightDigit](https://github.com/brightdigit/ThirtyTo) |
 | [Tcl](https://wiki.tcl-lang.org/48827) | [dbohdan](https://github.com/dbohdan) |
 
 ## Specification
