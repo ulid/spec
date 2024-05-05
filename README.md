@@ -69,6 +69,7 @@ From ourselves and the community!
 | [Nim](https://github.com/adelq/ulid) | [adelq](https://github.com/adelq)
 | [OCaml](https://github.com/stripedpajamas/ocaml-ulid) | [stripedpajamas](https://github.com/stripedpajamas) |   |
 | [Perl 5](https://github.com/bk/Data-ULID) | [bk](https://github.com/bk) | ✓ |
+| [PHP](https://github.com/infocyph/UID) | [Infocyph](https://github.com/infocyph) |
 | [PHP](https://github.com/Lewiscowles1986/ulid) | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
 | [PHP](https://github.com/robinvdvleuten/php-ulid) | [robinvdvleuten](https://github.com/robinvdvleuten) |
 | [PowerShell](https://github.com/PetterBomban/posh-ulid) | [PetterBomban](https://github.com/PetterBomban) |
