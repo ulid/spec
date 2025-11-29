@@ -38,6 +38,7 @@ From ourselves and the community!
 | Language | Author | Binary Implementation |
 | -------- | ------ | --------------------- |
 | [C++](https://github.com/suyash/ulid) | [suyash](https://github.com/suyash) | ✓ |
+| [C++20](https://github.com/ulfben/cpp_ulid/) | [ulfben](https://github.com/ulfben/) |  |
 | [C#](https://github.com/mcb2001/CSharp.Ulid) | [mcb2001](https://github.com/mcb2001) |
 | [Clojure](https://github.com/theikkila/clj-ulid) | [theikkila](https://github.com/theikkila) |
 | [Objective-C](https://github.com/whitesmith/ulid) | [ricardopereira](https://github.com/ricardopereira) |
