@@ -38,6 +38,7 @@ From ourselves and the community!
 | Language | Author | Binary Implementation |
 | -------- | ------ | --------------------- |
 | [C++](https://github.com/suyash/ulid) | [suyash](https://github.com/suyash) | ✓ |
+| [C#](https://github.com/ByteAether/Ulid) | [ByteAether](https://github.com/ByteAether) | ✓ |
 | [C#](https://github.com/mcb2001/CSharp.Ulid) | [mcb2001](https://github.com/mcb2001) |
 | [Clojure](https://github.com/theikkila/clj-ulid) | [theikkila](https://github.com/theikkila) |
 | [Objective-C](https://github.com/whitesmith/ulid) | [ricardopereira](https://github.com/ricardopereira) |
@@ -64,6 +65,7 @@ From ourselves and the community!
 | [Julia](https://github.com/ararslan/ULID.jl) | [ararslan](https://github.com/ararslan) |
 | [Kotlin](https://github.com/GuepardoApps/kULID) | [GuepardoApps](https://github.com/GuepardoApps) |
 | [Lua](https://github.com/Tieske/ulid.lua) | [Tieske](https://github.com/Tieske) |
+| [.NET](https://github.com/ByteAether/Ulid) | [ByteAether](https://github.com/ByteAether) | ✓ |
 | [.NET](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
 | [.NET](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
 | [Nim](https://github.com/adelq/ulid) | [adelq](https://github.com/adelq)
