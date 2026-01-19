@@ -19,7 +19,7 @@ UUID can be suboptimal for many use-cases because:
 Instead, herein is proposed ULID:
 
 ```javascript
-ulid() // 01ARZ3NDEKTSV4RRFFQ69G5FAV
+ulid(); // 01ARZ3NDEKTSV4RRFFQ69G5FAV
 ```
 
 - 128-bit compatibility with UUID
@@ -35,62 +35,62 @@ ulid() // 01ARZ3NDEKTSV4RRFFQ69G5FAV
 
 From ourselves and the community!
 
-| Language | Author | Binary Implementation |
-| -------- | ------ | --------------------- |
-| [C++](https://github.com/suyash/ulid) | [suyash](https://github.com/suyash) | ✓ |
-| [C#](https://github.com/mcb2001/CSharp.Ulid) | [mcb2001](https://github.com/mcb2001) |
-| [Clojure](https://github.com/theikkila/clj-ulid) | [theikkila](https://github.com/theikkila) |
-| [Objective-C](https://github.com/whitesmith/ulid) | [ricardopereira](https://github.com/ricardopereira) |
-| [Crystal](https://github.com/SuperPaintman/ulid) | [SuperPaintman](https://github.com/SuperPaintman) |
-| [Dart](https://github.com/agilord/ulid) | [isoos](https://github.com/isoos) | ✓ |
-| [Dart](https://github.com/GuepardoApps/d-ulid) | [GuepardoApps](https://github.com/GuepardoApps) |
-| [Delphi](https://github.com/martinusso/ulid) | [matinusso](https://github.com/martinusso) |
-| [D](https://github.com/enckse/ulid) | [enckse](https://github.com/enckse) |
-| [D (dub)](https://code.dlang.org/packages/ulid-d) | [extrawurst](https://github.com/Extrawurst)
-| [Erlang](https://github.com/savonarola/ulid) | [savonarola](https://github.com/savonarola) |
-| [Elixir](https://github.com/Homepolish/ulid) | [Homepolish](https://github.com/Homepolish) | ✓ |
-| [Elixir](https://github.com/merongivian/ulid) | [merongivian](https://github.com/merongivian) |
-| [Elixir](https://github.com/omisego/ex_ulid) | [omisego](https://github.com/omisego) | ✓ |
-| [Elixir (Ecto)](https://github.com/TheRealReal/ecto-ulid) | [dcuddeback](https://github.com/dcuddeback) | ✓ |
-| [F#](https://github.com/lucasschejtman/FSharp.Ulid) | [lucasschejtman](https://github.com/lucasschejtman) |
-| [Factor](https://github.com/AlexIljin/ulid) | [Alexander Ilin](https://github.com/AlexIljin) | ✓ |
-| [Go](https://github.com/oklog/ulid) | [oklog](https://github.com/oklog) | ✓ |
-| [Haskell](https://github.com/steven777400/ulid) | [steven777400](https://github.com/steven777400) | ✓ |
-| [Java](https://github.com/huxi/sulky/tree/master/sulky-ulid) | [huxi](https://github.com/huxi) | ✓ |
-| [Java](https://github.com/azam/ulidj) | [azam](https://github.com/azam) |
-| [Java](https://github.com/Lewiscowles1986/jULID) | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
-| [JavaScript](https://github.com/ulid/javascript) | [ulid](https://github.com/ulid) |
-| [JavaScript](https://github.com/aarondcohen/id128) | [aarondcohen](https://github.com/aarondcohen) | ✓ |
-| [Julia](https://github.com/ararslan/ULID.jl) | [ararslan](https://github.com/ararslan) |
-| [Kotlin](https://github.com/GuepardoApps/kULID) | [GuepardoApps](https://github.com/GuepardoApps) |
-| [Lua](https://github.com/Tieske/ulid.lua) | [Tieske](https://github.com/Tieske) |
-| [MoonBit](https://github.com/paveg/ulid) | [paveg](https://github.com/paveg) | ✓ |
-| [.NET](https://github.com/RobThree/NUlid) | [RobThree](https://github.com/RobThree) | ✓ |
-| [.NET](https://github.com/fvilers/ulid.net) | [fvilers](https://github.com/fvilers)
-| [Nim](https://github.com/adelq/ulid) | [adelq](https://github.com/adelq)
-| [OCaml](https://github.com/stripedpajamas/ocaml-ulid) | [stripedpajamas](https://github.com/stripedpajamas) |   |
-| [Perl 5](https://github.com/bk/Data-ULID) | [bk](https://github.com/bk) | ✓ |
-| [PHP](https://github.com/Lewiscowles1986/ulid) | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
-| [PHP](https://github.com/robinvdvleuten/php-ulid) | [robinvdvleuten](https://github.com/robinvdvleuten) |
-| [PowerShell](https://github.com/PetterBomban/posh-ulid) | [PetterBomban](https://github.com/PetterBomban) |
-| [Python](https://github.com/mdipierro/ulid) | [mdipierro](https://github.com/mdipierro) |
-| [Python](https://github.com/ahawker/ulid) | [ahawker](https://github.com/ahawker) | ✓ |
-| [Python](https://github.com/mdomke/python-ulid) | [mdomke](https://github.com/mdomke) | ✓ |
-| [R](https://github.com/hrbrmstr/ulid) | [hrbrmstr](https://github.com/hrbrmstr) |   |
-| [Ruby](https://github.com/rafaelsales/ulid) | [rafaelsales](https://github.com/rafaelsales) |
-| [Rust](https://github.com/mmacedoeu/rulid.rs) | [mmacedoeu](https://github.com/mmacedoeu) | ✓ |
-| [Rust](https://github.com/dylanhart/ulid-rs) | [dylanhart](https://github.com/dylanhart) | ✓ |
-| [Scala](https://github.com/petitviolet/ulid4s) | [petitviolet](https://github.com/petitviolet) |
-| [SQL-Microsoft](https://github.com/rmalayter/ulid-mssql) | [rmalayter](https://github.com/rmalayter) | ✓ |
-| [Swift](https://github.com/simonwhitehouse/ULIDSwift) | [simonwhitehouse](https://github.com/simonwhitehouse) |
-| [Swift](https://github.com/yaslab/ULID.swift) | [yaslab](https://github.com/yaslab) | ✓ |
-| [Tcl](https://wiki.tcl-lang.org/48827) | [dbohdan](https://github.com/dbohdan) |
+| Language                                                     | Author                                                | Binary Implementation |
+| ------------------------------------------------------------ | ----------------------------------------------------- | --------------------- |
+| [C++](https://github.com/suyash/ulid)                        | [suyash](https://github.com/suyash)                   | ✓                     |
+| [C#](https://github.com/mcb2001/CSharp.Ulid)                 | [mcb2001](https://github.com/mcb2001)                 |
+| [Clojure](https://github.com/theikkila/clj-ulid)             | [theikkila](https://github.com/theikkila)             |
+| [Objective-C](https://github.com/whitesmith/ulid)            | [ricardopereira](https://github.com/ricardopereira)   |
+| [Crystal](https://github.com/SuperPaintman/ulid)             | [SuperPaintman](https://github.com/SuperPaintman)     |
+| [Dart](https://github.com/agilord/ulid)                      | [isoos](https://github.com/isoos)                     | ✓                     |
+| [Dart](https://github.com/GuepardoApps/d-ulid)               | [GuepardoApps](https://github.com/GuepardoApps)       |
+| [Delphi](https://github.com/martinusso/ulid)                 | [matinusso](https://github.com/martinusso)            |
+| [D](https://github.com/enckse/ulid)                          | [enckse](https://github.com/enckse)                   |
+| [D (dub)](https://code.dlang.org/packages/ulid-d)            | [extrawurst](https://github.com/Extrawurst)           |
+| [Erlang](https://github.com/savonarola/ulid)                 | [savonarola](https://github.com/savonarola)           |
+| [Elixir](https://github.com/Homepolish/ulid)                 | [Homepolish](https://github.com/Homepolish)           | ✓                     |
+| [Elixir](https://github.com/merongivian/ulid)                | [merongivian](https://github.com/merongivian)         |
+| [Elixir](https://github.com/omisego/ex_ulid)                 | [omisego](https://github.com/omisego)                 | ✓                     |
+| [Elixir (Ecto)](https://github.com/TheRealReal/ecto-ulid)    | [dcuddeback](https://github.com/dcuddeback)           | ✓                     |
+| [F#](https://github.com/lucasschejtman/FSharp.Ulid)          | [lucasschejtman](https://github.com/lucasschejtman)   |
+| [Factor](https://github.com/AlexIljin/ulid)                  | [Alexander Ilin](https://github.com/AlexIljin)        | ✓                     |
+| [Go](https://github.com/oklog/ulid)                          | [oklog](https://github.com/oklog)                     | ✓                     |
+| [Haskell](https://github.com/steven777400/ulid)              | [steven777400](https://github.com/steven777400)       | ✓                     |
+| [Java](https://github.com/huxi/sulky/tree/master/sulky-ulid) | [huxi](https://github.com/huxi)                       | ✓                     |
+| [Java](https://github.com/azam/ulidj)                        | [azam](https://github.com/azam)                       |
+| [Java](https://github.com/Lewiscowles1986/jULID)             | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
+| [JavaScript](https://github.com/ulid/javascript)             | [ulid](https://github.com/ulid)                       |
+| [JavaScript](https://github.com/aarondcohen/id128)           | [aarondcohen](https://github.com/aarondcohen)         | ✓                     |
+| [Julia](https://github.com/ararslan/ULID.jl)                 | [ararslan](https://github.com/ararslan)               |
+| [Kotlin](https://github.com/GuepardoApps/kULID)              | [GuepardoApps](https://github.com/GuepardoApps)       |
+| [Lua](https://github.com/Tieske/ulid.lua)                    | [Tieske](https://github.com/Tieske)                   |
+| [MoonBit](https://github.com/paveg/ulid-mbt)                 | [paveg](https://github.com/paveg)                     | ✓                     |
+| [.NET](https://github.com/RobThree/NUlid)                    | [RobThree](https://github.com/RobThree)               | ✓                     |
+| [.NET](https://github.com/fvilers/ulid.net)                  | [fvilers](https://github.com/fvilers)                 |
+| [Nim](https://github.com/adelq/ulid)                         | [adelq](https://github.com/adelq)                     |
+| [OCaml](https://github.com/stripedpajamas/ocaml-ulid)        | [stripedpajamas](https://github.com/stripedpajamas)   |                       |
+| [Perl 5](https://github.com/bk/Data-ULID)                    | [bk](https://github.com/bk)                           | ✓                     |
+| [PHP](https://github.com/Lewiscowles1986/ulid)               | [Lewiscowles1986](https://github.com/Lewiscowles1986) |
+| [PHP](https://github.com/robinvdvleuten/php-ulid)            | [robinvdvleuten](https://github.com/robinvdvleuten)   |
+| [PowerShell](https://github.com/PetterBomban/posh-ulid)      | [PetterBomban](https://github.com/PetterBomban)       |
+| [Python](https://github.com/mdipierro/ulid)                  | [mdipierro](https://github.com/mdipierro)             |
+| [Python](https://github.com/ahawker/ulid)                    | [ahawker](https://github.com/ahawker)                 | ✓                     |
+| [Python](https://github.com/mdomke/python-ulid)              | [mdomke](https://github.com/mdomke)                   | ✓                     |
+| [R](https://github.com/hrbrmstr/ulid)                        | [hrbrmstr](https://github.com/hrbrmstr)               |                       |
+| [Ruby](https://github.com/rafaelsales/ulid)                  | [rafaelsales](https://github.com/rafaelsales)         |
+| [Rust](https://github.com/mmacedoeu/rulid.rs)                | [mmacedoeu](https://github.com/mmacedoeu)             | ✓                     |
+| [Rust](https://github.com/dylanhart/ulid-rs)                 | [dylanhart](https://github.com/dylanhart)             | ✓                     |
+| [Scala](https://github.com/petitviolet/ulid4s)               | [petitviolet](https://github.com/petitviolet)         |
+| [SQL-Microsoft](https://github.com/rmalayter/ulid-mssql)     | [rmalayter](https://github.com/rmalayter)             | ✓                     |
+| [Swift](https://github.com/simonwhitehouse/ULIDSwift)        | [simonwhitehouse](https://github.com/simonwhitehouse) |
+| [Swift](https://github.com/yaslab/ULID.swift)                | [yaslab](https://github.com/yaslab)                   | ✓                     |
+| [Tcl](https://wiki.tcl-lang.org/48827)                       | [dbohdan](https://github.com/dbohdan)                 |
 
 ## Specification
 
 Below is the current specification of ULID as implemented in [ulid/javascript](https://github.com/ulid/javascript).
 
-*Note: the binary format has not been implemented in JavaScript as of yet.*
+_Note: the binary format has not been implemented in JavaScript as of yet._
 
 ```
  01AN4Z07BY      79KA1307SR9X4MV3
@@ -103,11 +103,13 @@ Below is the current specification of ULID as implemented in [ulid/javascript](h
 ### Components
 
 **Timestamp**
+
 - 48 bit integer
 - UNIX-time in milliseconds
 - Won't run out of space 'til the year 10889 AD.
 
 **Randomness**
+
 - 80 bits
 - Cryptographically secure source of randomness, if possible
 
@@ -139,13 +141,13 @@ When generating a ULID within the same millisecond, we can provide some
 guarantees regarding sort order. Namely, if the same millisecond is detected, the `random` component is incremented by 1 bit in the least significant bit position (with carrying). For example:
 
 ```javascript
-import { monotonicFactory } from 'ulid'
+import { monotonicFactory } from "ulid";
 
-const ulid = monotonicFactory()
+const ulid = monotonicFactory();
 
 // Assume that these calls occur within the same millisecond
-ulid() // 01BX5ZZKBKACTAV9WEVGEMMVRZ
-ulid() // 01BX5ZZKBKACTAV9WEVGEMMVS0
+ulid(); // 01BX5ZZKBKACTAV9WEVGEMMVRZ
+ulid(); // 01BX5ZZKBKACTAV9WEVGEMMVS0
 ```
 
 If, in the extremely unlikely event that, you manage to generate more than 2<sup>80</sup> ULIDs within the same millisecond, or cause the random component to overflow with less, the generation will fail.
@@ -194,5 +196,6 @@ The components are encoded as 16 octets. Each component is encoded with the Most
 ## Prior Art
 
 Partly inspired by:
+
 - http://instagram-engineering.tumblr.com/post/10853187575/sharding-ids-at-instagram
 - https://firebase.googleblog.com/2015/02/the-2120-ways-to-ensure-unique_68.html
